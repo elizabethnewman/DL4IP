@@ -11,5 +11,9 @@ if ~exist('AIRToolsII','dir')
     !git clone https://github.com/jakobsj/AIRToolsII
 end
 
+if ~exist('matlab2tikz','dir')
+    !git clone https://github.com/matlab2tikz/matlab2tikz
+end
+
 
 addpath(genpath('.'))
