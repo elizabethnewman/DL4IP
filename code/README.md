@@ -1,6 +1,7 @@
 ## Main Setup
 
-Our goal is to solve inverse problems using sparse dictionary representations. 
+Our goal is to solve inverse problems using sparse dictionary representations. We solve
+$$\min_{\mathbf{x} \ge 0} \|\mathbf{A} \mathbf{x} - \mathbf{b}\|_2^2$$
 
 The scripts to run experiments approximate the following structure:
 
