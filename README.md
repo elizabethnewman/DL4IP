@@ -22,7 +22,10 @@ This path setup file will automatically clone the dependent repositories.
 
 ## Repository Structure
 
-The repository 
+The repository has the following structure:
+* [code](https://github.com/elizabethnewman/DL4IP/tree/main/code): main code for solving inverse problems using sparse dictionary representations
+* [dictionaries](https://github.com/elizabethnewman/DL4IP/tree/main/dictionaries): pre-formed dictionaries from [built-in MATLAB Flowers dataset](https://www.mathworks.com/help/deeplearning/ug/data-sets-for-deep-learning.html) and [high-resolution image of the earth](https://www.cnet.com/science/stunning-high-resolution-photo-shows-earths-many-hues/).
+* [examples](https://github.com/elizabethnewman/DL4IP/tree/main/examples): scripts to generate the examples in our paper.
 
 
 ## Citation
@@ -37,10 +40,6 @@ The repository
       primaryClass={math.NA}
 }
 ```
-
-## [Examples from Paper](https://github.com/elizabethnewman/DL4IP/tree/main/examples)
-
-We provide code to generate the examples in our paper. See the **examples** directory for details.
 
 
 
