@@ -47,10 +47,3 @@ The main functions for running this code include the prefix ```DL4IP_```.  The f
   * ```options.dictionary```: choose dictionary to use for reconstruction
   * ```options.seed```: seed for reproducibility (default = 42)
 
-
-* ```DL4IP_DataSetup```: choose the original image to reconstruct; pairs with ```options.data```, which include
-  * ```options.data.name```: image name ('moon', 'GirlWithPearlEarring', 'peppers', 'tomography')
-  * ```options.data.size```: size of image (should be divisible by dictionary patch size)
-  * ```options.data.color```: Boolean to keep image in color or turn to gray scale
-  * ```options.data.seed```: seed for data for reproducibility (e.g., adding noise)
-
