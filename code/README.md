@@ -1,7 +1,11 @@
 ## Main Setup
 
 Our goal is to solve inverse problems using sparse dictionary representations. We solve
-$$\min_{\mathbf{x} \ge 0} \|\mathbf{A} \mathbf{x} - \mathbf{b}\|_2^2$$
+$$\min_{\mathbf{x} \ge 0} ||\mathbf{A} \mathbf{x} - \mathbf{b}||_2^2$$
+where 
+* $\mathbf{A}$ is the forward operator with built-in dictionary representation and Tikhonov regularization.
+* $\mathbf{b}$ is the non-negative corrupted image to reconstruct (concatenated with additional zeros based on the regularization operator)
+* $\mathbf{x}$: the non-negative reconstructed image
 
 The scripts to run experiments approximate the following structure:
 
